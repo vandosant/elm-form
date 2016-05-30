@@ -25,7 +25,8 @@ model =
 
 
 type Msg
-  = Change String | Clear
+  = Change String
+  | Clear
 
 update : Msg -> Model -> Model
 update msg model =
